@@ -1,0 +1,57 @@
+[
+	{
+		"id": 1,
+		"titulo": "Equilibrium",
+		"formato": "HD",
+		"anio": "2002",
+		"categoria": "Acción",
+		"calificación": "6.5"
+	},
+	{
+		"id": 2,
+		"titulo": "Transformers 1 ",
+		"formato": "Full HD",
+		"anio": "2007",
+		"categoria": "Aventura, Accion",
+		"calificacion": "8.5"
+	},
+	{
+		"id": 3,
+		"titulo": "Matrix",
+		"formato": "2K",
+		"anio": "1999",
+		"categoria": "Sci-Fi",
+		"calificación": "9.0"
+	},
+	{
+		"id": 4,
+		"titulo": "El resplandor",
+		"formato": "DVD",
+		"anio": "1980",
+		"categoria": "Terror",
+		"calificación": "9.0"
+	},
+	{
+		"id": 6,
+		"titulo": "Indiana Jones Y El Templo De La Perdicion",
+		"formato": "Blu-Ray",
+		"anio": "1984",
+		"categoria": "Aventura",
+		"calificacion": "8.6"
+	},
+	{
+		"id": 7,
+		"titulo": "Cars",
+		"formato": "Full HD",
+		"anio": "2006",
+		"categoria": "Animadas"
+	},
+	{
+		"id": 8,
+		"titulo": "Transformers 2",
+		"formato": "Full HD",
+		"anio": "2009",
+		"categoria": "Aventura, Accion",
+		"calificacion": "8.3"
+	}
+]

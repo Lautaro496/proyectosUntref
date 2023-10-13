@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../conection/connection');
 
 const CatalogoActricesActores = sequelize.define('CatalogoActricesActores', {
-    IdCatAct: {
+    idCatAct: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
@@ -19,5 +19,6 @@ const CatalogoActricesActores = sequelize.define('CatalogoActricesActores', {
   tableName: 'CatalogoActricesActores',
   timestamps: false,
 });
+
 
 module.exports = CatalogoActricesActores;

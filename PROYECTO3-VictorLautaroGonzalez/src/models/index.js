@@ -15,10 +15,9 @@ const CatalogoGenero = require("./catalogogenero");
 // Relación many-to-many entre ActricesActores y Catalogo, mediante CatalogoActricesActores
 ActricesActores.belongsToMany(Catalogo, { through: CatalogoActricesActores })
 Catalogo.belongsToMany(ActricesActores, { through: CatalogoActricesActores })
-
 // Relación many-to-many entre Categoria y Catalogo, mediante CatalogoCategoria
 Categoria.belongsToMany(Catalogo, { through: CatalogoCategoria })
-Catalogo.belongsToMany(Categoria, { through: CatalogoCategoria })
+Catalogo.hasOne(Categoria, { through: CatalogoCategoria })
 
 // Relación many-to-many entre Genero y Catalogo, mediante CatalogoGenero
 Genero.belongsToMany(Catalogo, { through: CatalogoGenero })

@@ -5,10 +5,10 @@ const { Catalogo } = require("../models/index");
 
 router.get("/catalogo/:id", async (req, res) => {
   const act = await Catalogo.findOne({
-    where: { ID: req.params.id },
+    where: { ID: req.params.idCatalogo },
     include: {
       model: Catalogo,
-      attributes: ["Name",],
+      attributes: ["Poster","Titulo","Categoria","Genero","Resumen","Temporadas","Reparto","Trailer"],
       through: { attributes: [] },
     },
   });

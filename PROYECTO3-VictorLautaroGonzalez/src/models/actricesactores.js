@@ -4,7 +4,7 @@ const sequelize = require("../conection/connection");
 const ActricesActores = sequelize.define(
   "ActricesActores",
   {
-    IdActores: {
+    idActores: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,

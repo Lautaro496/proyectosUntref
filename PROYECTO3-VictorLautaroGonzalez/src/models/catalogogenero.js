@@ -4,16 +4,16 @@ const sequelize = require("../conection/connection");
 const CatalogoGenero = sequelize.define(
   "CatalogoGenero",
   {
-    IdCatGen: {
+    idCatGen: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
     },
-    IdCatalogo: {
+    idCatalogo: {
       type: DataTypes.INTEGER,
       default: 1,
     },
-    IdGenero: {
+    idGenero: {
       type: DataTypes.INTEGER,
       default: 1,
     }

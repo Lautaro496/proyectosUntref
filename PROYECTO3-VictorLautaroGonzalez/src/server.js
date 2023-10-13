@@ -3,19 +3,27 @@ dotenv.config();
 const express = require('express');
 
 const sequelize = require("./conection/connection")
-const products = require("./routes/products")
-const orders = require("./routes/orders")
+const actricesactores = require("./routes/actricesactores")
+const catalogo= require("./routes/catalogo")
+const categoria = require("./routes/categoria")
+const genero = require("./routes/genero")
 
 const server = express();
 
 // Middlewares
 server.use(express.json());
 
-// Rutas a Products
-server.use("/products", products)
+// Rutas a catalogo
+server.use("/catalogo", catalogo)
 
-// Rutas a Orders
-server.use("/orders", orders)
+// Rutas a ActricesActores
+server.use("/actricesactores", actricesactores)
+
+// Rutas a Categoria
+server.use("/categoria", categoria)
+
+// Rutas a genero
+server.use("/genero", genero)
 
 // Control de rutas inexistentes
 server.use('*', (req, res) => {

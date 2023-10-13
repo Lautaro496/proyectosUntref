@@ -1,10 +1,12 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../conection/connection");
+const catalogo =require("./catalogo");
+const categoria = require("./categoria");
 
 const CatalogoCategoria = sequelize.define(
   "CatalogoCategoria",
   {
-    IdCatCateg: {
+    idCatCateg: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
@@ -23,5 +25,4 @@ const CatalogoCategoria = sequelize.define(
     timestamps: false,
   }
 );
-
 module.exports = CatalogoCategoria;

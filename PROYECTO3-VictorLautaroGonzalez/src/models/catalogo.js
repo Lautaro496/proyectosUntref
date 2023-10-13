@@ -42,6 +42,6 @@ const Catalogo = sequelize.define('Catalogo', {
 }, {
   tableName: 'Catalogo',
   timestamps: false,
-});
+}); 
 
 module.exports = Catalogo;

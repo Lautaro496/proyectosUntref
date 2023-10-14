@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h4,
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+li::marker {
+    color: #E5BA73;
+}
+
+
+/* LINK */
+a {
+    color: rgba(90, 52, 8, 0.904);
+}
+
+a:hover {
+    color: rgba(207, 163, 106, 0.973) !important;
+    transition-duration: 0, 5s !important;
+}
+
+/* BUTTONS */
+
+.submit-button {
+    background-color: #0b0905 !important;
+    border: none !important;
+}
+
+.submit-button:hover {
+    background-color: #FAEAB1 !important;
+    border: none;
+}
+
+#linea-divisoria {
+    background-color: rgba(228, 190, 66, 0.507);
+    height: 0.3%;
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+li img {
+    display: block;
+    border-radius: 50%;
+    padding: 2px 2px;
+    margin-top: 5px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
